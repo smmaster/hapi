@@ -1,0 +1,6 @@
+Auth:
+/auth:
+  post:
+    parameters:
+      token
+   -> user {}
